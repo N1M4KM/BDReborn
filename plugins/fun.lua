@@ -150,7 +150,7 @@ local Clang = redis:get(Chash)
 		text = text..'\nغروب آفتاب: '..data.Sunset
 		text = text..'\nاذان مغرب: '..data.Maghrib
 		text = text..'\nعشاء : '..data.Isha
-		text = text..'\n@SecPlus'
+		text = text..'\n@Cafegrm'
 		text = text..msg_caption
 		return tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'html')
 	end
